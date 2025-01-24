@@ -20,10 +20,10 @@ export default async function Home() {
             <PostCard key={post.id} post={post} dbUserId={dbUserId} />
           ))}
         </div>
+      </div>
 
-        <div className="hidden lg:block lg:col-span-4 sticky top-20">
-          <WhoToFollow />
-        </div>
+      <div className="hidden lg:block lg:col-span-4 sticky top-20">
+        <WhoToFollow />
       </div>
     </div>
   );
